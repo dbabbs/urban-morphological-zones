@@ -4,15 +4,15 @@ const base = `https://urban-morphological-zones.vercel.app/`;
 const SEO = () => {
    return (
       <NextSeo
-         title="Urban Morphological Zones "
-         description="An Urban Morpholigical Zone is a set of urban areas laying less than
+         title="Urban Morphological Zones"
+         description="An Urban Morphological Zone is a set of urban areas laying less than
          200m apart"
          canonical={base}
          openGraph={{
             url: base,
-            title: 'CartoGrid',
+            title: 'Urban Morphological Zones',
             description:
-               'An Urban Morpholigical Zone is a set of urban areas laying less than 200m apart',
+               'An Urban Morphological Zone is a set of urban areas laying less than 200m apart',
             images: [
                {
                   url: base + 'open-graph.png',
@@ -21,7 +21,7 @@ const SEO = () => {
                   alt: 'Europe image',
                },
             ],
-            site_name: 'CartoGrid',
+            site_name: 'Urban Morphological Zones',
          }}
          twitter={{
             handle: '@dbabbs',
